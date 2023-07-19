@@ -194,3 +194,49 @@ nav{
     font-style: normal;
     font-weight: 500;
 }
+
+/* card section end here.  */
+
+/* advertisement-section start here.  */
+.advertisment{
+    width: 80%;
+    margin: 70px auto 10px;
+    display: flex;
+}
+
+.advertise-content{
+    width: 50%;
+    margin-top: 100px;
+    margin-right: 180px;
+    text-align: right;
+}
+
+.advertise-content p{
+    width: 50%;
+    margin-left: 210px;
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.advertise-img{
+    width: 50%;
+}
+
+.first-primary-img{
+    width: 450px;
+    border-radius: 8px;
+    background: url(<path-to-image>), lightgray -7.583px 0px / 102.389% 100% no-repeat;
+}
+
+.advertise-img .primary-img{
+    width: 250px;
+}
+.primary-img{
+    position: relative; 
+    bottom: 200px;
+    right: 110px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+}

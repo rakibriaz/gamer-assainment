@@ -76,9 +76,55 @@
         font-size: 20px;
     }
 
+    /* advertisement-section start here.  */
+    .advertisment{
+        flex-direction: column;
+        width: 50%;
+        margin-top: -70px;
+    }
 
+    .advertise-content{
+        width: 100%;
+        text-align: center
 
     }
+    .advertise-content p{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .advertise-img{
+        width: 100%;
+    }
+    .first-primary-img{
+        width: 100%; 
+    }
+    .advertise-img .primary-img{
+        width: 100%;
+    }
+
+
+    .advertise-img .primary-img{
+         width: 60%;
+         margin-top: 50px;
+         padding: 5px;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
   
 
 
