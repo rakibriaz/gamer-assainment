@@ -1,3 +1,80 @@
 *{
     box-sizing: border-box;
 }
+
+*{
+   
+    font-family: Work Sans;
+}
+
+/* menus design start here.  */
+
+nav{
+    max-width: 1400px;
+}
+.menu-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between; 
+    width: 80%;
+    margin: 10px auto 20px;
+}
+
+.menu-logo{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu-logo img{
+    width: 50px;
+    height: 30px;
+    
+}
+
+.menus{
+    display: flex;
+}
+
+.menu-logo h3{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.primary-font{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.menus a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: #3C354F;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+.primary-menus{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 20px;
+}
+
+.primary-menus a{
+    text-decoration: none;
+    color: #3C354F;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-right: 10px;
+    
+}
+
+.fa-brands{
+    font-size: 20px;
+    margin-left: 5px;
+}

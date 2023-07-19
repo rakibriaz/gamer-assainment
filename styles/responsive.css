@@ -1,3 +1,31 @@
 *{
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 576px) {
+    .menu-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu-container .menu-logo{
+        flex-direction: row;
+        width: 50%;
+        margin-left: 30px;
+    }
+
+    .primary-menus{
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    .menu-logo{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menus{
+        flex-direction: column;
+        margin-bottom: 10px;
+        gap: 20px;
+    }
+}
