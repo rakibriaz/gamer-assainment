@@ -240,3 +240,67 @@ nav{
     border: 1px solid #FFF;
     background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
 }
+
+/* advertisment section end here. */
+
+
+
+.games-name-container{
+    width: 80%;
+    margin: -150px auto 10px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+}
+
+
+.games-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+}
+
+.games-box:hover{
+    border: 2px solid rgb(248, 148, 148);
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.games-box2:hover{
+    border: 2px solid rgb(248, 148, 148);
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.games-box img{
+    width: 40px;
+}
+
+.games-box p{
+    color: #0B0223;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.games-box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 80px;
+    width: 100%;
+
+}
+.games-box2 p{
+    color: #0B0223;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.games-box2 img{
+    width: 40px;
+}

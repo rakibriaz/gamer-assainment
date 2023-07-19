@@ -111,7 +111,20 @@
          padding: 5px;
 }
 
+/* games container start here.  */
+.games-name-container{
+    width: 80%;
+    grid-template-columns: repeat(3,1fr);
+    
+}
 
+
+.games-box2{
+    display: flex;
+    margin: 0;
+  
+
+}
 
 
 
