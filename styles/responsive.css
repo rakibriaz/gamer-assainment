@@ -43,4 +43,42 @@
     }
 
     /* bannar section end here.  */
-}
+
+    /* card section start here.  */
+
+    .card-box{
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        padding: 0;
+        margin: auto;
+    }
+
+    .card-containt{
+        width: 100%;
+        margin: auto;
+    }
+
+    .box{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .box img{
+        width: 95%;
+        margin: auto;
+        
+    }
+
+    .box p{
+        width: 80%
+        margin: auto;
+        font-size: 20px;
+    }
+
+
+
+    }
+  
+
+
