@@ -28,4 +28,19 @@
         margin-bottom: 10px;
         gap: 20px;
     }
+
+    /* bannar section start here.  */
+
+    .bannar-container{
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .bannar-img{
+        width: 70%;
+        margin: auto;
+    }
+
+    /* bannar section end here.  */
 }
